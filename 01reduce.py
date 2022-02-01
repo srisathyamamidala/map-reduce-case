@@ -1,5 +1,5 @@
 s = open("s.txt","r")
-r = open("r.txt", "w")
+r = open("mamidalaOutput.txt", "w")
 
 thisKey = ""
 thisValue = 0.0
