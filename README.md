@@ -14,6 +14,7 @@ cat us_disaster_declarations.csv | python mam01mapper.py | sort | python mamredu
 ```
 
 ## Summary
-**According to the report, the highest number of disasters occured in Texas,United States** </br>
+**I wanted to find out which state has the highest number of disasters?** </br>
+According to the report, the highest number of disasters occured in Texas,United States </br>
 
 ![NumberOfDisastersOccuredInDifferentStates](/images/NumberOfDisastersOccuredInDifferentStates.PNG)
