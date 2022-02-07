@@ -8,6 +8,13 @@ The data I have used consist of natural disasters experienced in the different s
 From the initial dataset, I have mapped to the key-values: State, count. Then, I have used the terminal "sort" to get them sorted if they are not sorted. Then, I have reduced all the key values obtained after sorting and obtained the output and the combo graph is used to show the count of disasters occured in different states of US.
 
 ## powershell command
+To get the mapper output we need to execute the below command in the local system: 
+```
+cat us_disaster_declarations.csv | python mam01mapper.py > mam.txt
+
+```
+
+To get the sorted and the reduced output :
 ```
 cat us_disaster_declarations.csv | python mam01mapper.py | sort | python mamreducer.py > sathya-output.txt
 
